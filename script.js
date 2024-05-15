@@ -15,8 +15,8 @@ function getUsers(){
             tr.innerHTML=`<td>${d.id}</td>
             <td>${d.name}</td>
             <td>${d.branch}</td>
-            <td><button onclick=deleteUser(${d.id})>delete</button>
-            <button onclick=editUser(${d.id})>edit</button>
+            <td><button onclick=deleteUser(${d.id})><i class="fa-solid fa-trash"></i></button>
+                <button onclick=editUser(${d.id})><i class="fa-solid fa-pen-to-square"></i></button>
             `
             t.appendChild(tr);
         });
@@ -31,14 +31,14 @@ function addUser(){
         let branch=document.getElementById("branch").value
         deleteUser(id);
         axios.post("http://localhost:3000/user",{id,name,branch}).then((res)=>{
-        getUsers();
+        window.location.reload();
     })
     
         
 }
 function deleteUser(id){
     axios.delete(`http://localhost:3000/user/${id}`).then((res)=>{
-        getUsers();
+        window.location.reload();
     })
 }
 function editUser(d){

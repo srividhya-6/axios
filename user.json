@@ -11,19 +11,19 @@
       "branch": "CSE"
     },
     {
-      "id": "10",
-      "name": "sdcfvsd",
-      "branch": "it"
-    },
-    {
-      "id": "10",
-      "name": "sdcfvsd",
+      "id": "3",
+      "name": "D Srividhya",
       "branch": "CSE"
     },
     {
-      "id": "7",
-      "name": "zxc",
-      "branch": "CSE A"
+      "id": "6",
+      "name": "bob",
+      "branch": "IT"
+    },
+    {
+      "id": "10",
+      "name": "alice",
+      "branch": "CS"
     }
   ]
 }
