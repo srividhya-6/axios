@@ -1,0 +1,29 @@
+{
+  "user": [
+    {
+      "id": "4",
+      "name": "sdfs",
+      "branch": "IT"
+    },
+    {
+      "id": "1",
+      "name": "vidhya",
+      "branch": "CSE"
+    },
+    {
+      "id": "10",
+      "name": "sdcfvsd",
+      "branch": "it"
+    },
+    {
+      "id": "10",
+      "name": "sdcfvsd",
+      "branch": "CSE"
+    },
+    {
+      "id": "7",
+      "name": "zxc",
+      "branch": "CSE A"
+    }
+  ]
+}
