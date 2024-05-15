@@ -15,8 +15,8 @@ function getUsers(){
             tr.innerHTML=`<td>${d.id}</td>
             <td>${d.name}</td>
             <td>${d.branch}</td>
-            <td><button onclick=deleteUser(${d.id})><i class="fa-solid fa-trash"></i></button>
-                <button onclick=editUser(${d.id})><i class="fa-solid fa-pen-to-square"></i></button>
+            <td><i class="fa-solid fa-trash" onclick=deleteUser(${d.id})></i>
+                <i class="fa-solid fa-pen-to-square" onclick=editUser(${d.id})></i>
             `
             t.appendChild(tr);
         });
